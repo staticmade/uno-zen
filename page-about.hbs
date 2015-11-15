@@ -4,7 +4,8 @@
 
   <article class="{{post_class}}">
     <header>
-      <h1 id="post-title">About me</h1>
+      {{#if image}}<img id="post-image" src={{image}} alt="{{{title}}}">{{/if}}
+      <h1 id="post-title">Colophon</h1>
     </header>
 
     <section class="{{post_class}}">
